@@ -51,6 +51,7 @@ public class EmpleadoService {
             System.out.println("::CREAR EMPLEADO::");
             System.out.println("Ingrese el documento del empleado");
             String documento = sc.next();
+            // Validar documento acá tiene que estar mirar que no este repetido el empleado
             System.out.println("Ingrese el nombre del empleado");
             String nombre = sc.next();
             System.out.println("Ingrese las horas trabajadas");
